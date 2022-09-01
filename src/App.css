@@ -6,7 +6,9 @@
    padding: 0;
    box-sizing: border-box;
    list-style: none;
+   
 }
+
 
 /* .App {
    height: 100vh;
@@ -15,8 +17,11 @@
    background-position: center;
    background-size: cover;
 } */
-
+button{
+   cursor: url(../public/Pikachu.ani), default;
+}
 .card {
+   
    background-color: white;
    cursor: pointer;
    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.20);
@@ -165,4 +170,18 @@ option {
    display: flex;
    justify-content: space-between;
 
+ }
+
+ .numberPages {
+   display: flex;
+   justify-content: center;
+   gap: 2em;
+   margin-bottom: 2em;
+ }
+
+ .active-page {
+   padding:0 1em;
+   border-radius: 20px;
+ background-color: aqua;
+ color: white;
  }

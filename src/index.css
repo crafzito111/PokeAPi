@@ -134,3 +134,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.pokedex h2 {
+ font-size: 2.5em;
+ font-family: 'Bebas Neue', cursive;
+ padding: 5px 10px;
+}
+
+.pokedex span {
+  color:red;
+}

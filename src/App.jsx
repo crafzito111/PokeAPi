@@ -7,9 +7,12 @@ import ProtectedRoutes from './components/ProtectedRoutes'
 import Pokedex from './components/Pokedex'
 import PokemonDetails from './components/PokemonDetails'
 import './TypeColors.css'
+import './PokemonsDetailsEstyle.css'
+
 
 function App() {
 
+ 
 
   return (
     <div className="App">
@@ -20,7 +23,7 @@ function App() {
 
         {/* <Route element={<ProtectedRoutes />} > */}
           <Route path='/pokedex' element={<Pokedex />} />
-          <Route path='/pokedex/:id' element={<PokemonDetails />} />
+          <Route path='/pokedex/:name' element={<PokemonDetails />} />
         {/* </Route> */}
 
 

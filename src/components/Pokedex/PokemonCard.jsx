@@ -45,20 +45,6 @@ const PokemonCard = ({ url }) => {
       </div>
    );
 
-   // <article>
-   //   <header>
-   //
-   //   </header>
-   //   <section className='body'>
-   //     <h3 className={pokemon?.types[0].type.name}>{pokemon?.name}</h3>
-
-   //   </section>
-
-   //   <footer>
-
-   //
-   //   </footer>
-   // </article>
 };
 
 export default PokemonCard;

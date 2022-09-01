@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card__detalles_contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    flex-direction: column;
+  
+}
+
+.card__details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    height: 550px;
+}
+
+.proges{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.hp {
+    background-color: red;
+}
