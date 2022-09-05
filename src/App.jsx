@@ -8,6 +8,7 @@ import Pokedex from './components/Pokedex'
 import PokemonDetails from './components/PokemonDetails'
 import './TypeColors.css'
 import './PokemonsDetailsEstyle.css'
+import 'animate.css';
 
 
 function App() {

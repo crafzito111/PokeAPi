@@ -55,7 +55,7 @@ const Pokedex = () => {
 
   }, [pokeSearch, optionType])
 
-console.log(pokemons)
+
 
   const nameTrainer = useSelector(state => state.nameTrainer)
 

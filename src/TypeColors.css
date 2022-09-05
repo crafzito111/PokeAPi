@@ -295,3 +295,13 @@
    border-bottom-left-radius: 150px;
    border-bottom-right-radius: 150px;
 }
+.ghost {
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,190,215,0.8295693277310925) 35%, rgba(54,63,65,1) 100%);
+
+   border-radius: 20px;
+   width: 100%;
+   height: 160px;
+   border-bottom-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+}

@@ -5,9 +5,9 @@ const Pagination = ({ pokemons, page, setPage, currentBlock, setCurrentBlock }) 
   const pageNumbers = [];
   const maxPagesPerBlock = 10
   const totalPages = Math.ceil(pokemons?.results.length / 18)
-  console.log(totalPages)
+
   const pageBloks = Math.ceil(totalPages / maxPagesPerBlock)
-  console.log(pageBloks)
+
 
   for (let i = (currentBlock - 1) * maxPagesPerBlock; i < currentBlock * maxPagesPerBlock; i++) {
     if (i + 1 <= totalPages) {
@@ -28,11 +28,11 @@ const Pagination = ({ pokemons, page, setPage, currentBlock, setCurrentBlock }) 
 
   return (
     <div>
-      <h1>{page + 1}</h1>
+      <h1 className='page_pagination'>N° {page + 1}</h1>
       <hr />
       <ul className='numberPages'>
         {
-          currentBlock !== 1 && <button onClick={previewsBlock}>...</button>
+          currentBlock !== 1 && <button onClick={previewsBlock}>⏮</button>
         }
         {
           pageNumbers.map(number => (
@@ -44,7 +44,7 @@ const Pagination = ({ pokemons, page, setPage, currentBlock, setCurrentBlock }) 
           ))
         }
         {
-          currentBlock !== pageBloks && <button onClick={nextBlock}>...</button>
+          currentBlock !== pageBloks && <button onClick={nextBlock}>⏩</button>
         }
       </ul>
     </div>

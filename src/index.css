@@ -80,9 +80,10 @@
   padding: 8px 12px;
   border: 0;
   width: min-content;
+  border: 1px solid black;
 }
 .home__input::placeholder {
-  color: #d3d3d3;
+
 }
 .home__btn{
   padding: 8px 12px;
@@ -143,4 +144,14 @@
 
 .pokedex span {
   color:red;
+}
+
+.page_pagination {
+  text-align: center;
+
+  
+}
+
+.search_btn button{
+  width: 20px;
 }

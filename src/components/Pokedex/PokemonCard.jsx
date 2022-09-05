@@ -18,11 +18,13 @@ const PokemonCard = ({ url }) => {
 
    const handleClick = () => navigate(`/pokedex/${pokemon.name}`)
 
+console.log(pokemon)
+
    return (
       <div onClick={handleClick} className="card">
          <div className={pokemon?.types[0].type.name}></div>
          <div className="card__img">
-            <img src={pokemon?.sprites.other['official-artwork']['front_default']} alt="" />
+            <img src={pokemon?.sprites.other['dream_world']['front_default']} alt="" />
          </div>
          <div className="card__title">
             <h3>{pokemon?.name}</h3>
