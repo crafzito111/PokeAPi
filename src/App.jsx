@@ -22,10 +22,10 @@ function App() {
 
         <Route path='/' element={<Home />} />
 
-        {/* <Route element={<ProtectedRoutes />} > */}
+        <Route element={<ProtectedRoutes />} >
           <Route path='/pokedex' element={<Pokedex />} />
           <Route path='/pokedex/:name' element={<PokemonDetails />} />
-        {/* </Route> */}
+        </Route>
 
 
       </Routes>
