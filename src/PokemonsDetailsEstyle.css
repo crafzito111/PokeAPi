@@ -10,6 +10,7 @@
    align-items: center;
    margin-top: 2em;
    flex-direction: column;
+ 
 }
 
 .card__details_img img {
@@ -22,10 +23,12 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.5);
    border-radius: 30px;
-   width: 80%;
-   height: 550px;
+   width: auto;
+
+   height: auto;
+   padding: 2rem;
 }
 
 .proges {
@@ -55,11 +58,13 @@
 
 .habilidades {
    padding: 5px 1em;
-   font-size: 15px;
+   font-size: 16px;
    font-weight: bold;
    border-radius: 10px;
-   background-color: rgb(155, 182, 182);
+   background-color: rgb(0, 0, 0);
    width: 100px;
+   color: white;
+    font-family: 'Bebas Neue', cursive;
    text-align: center;
 }
 
@@ -92,4 +97,12 @@ border-radius: 20px;
 .stadisticas span {
     font-size: 1.2em;
     color: red;
+}
+
+.card__details_name {
+   font-size: 3rem;
+}
+
+.card__details_name:first-letter {
+    text-transform: uppercase;
 }
